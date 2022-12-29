@@ -1,5 +1,5 @@
 import React from "react"
-
+import { SobreNosotros } from "../SobreNosotros/SobreNosotros"
 
 
 import { Video } from "../Video/Video"
@@ -8,6 +8,7 @@ return(
 <div>
 
    <Video/>
+   <SobreNosotros/>
    </div>
 
 )
