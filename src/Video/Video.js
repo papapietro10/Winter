@@ -1,5 +1,6 @@
 import "./Video.css"
 import videoBg from '../assets/videoBg.mp4'
+import ReactPlayer from 'react-player'
 
 export  const Video = () => {
 
@@ -8,7 +9,9 @@ export  const Video = () => {
 
   <div className='main'>
     <div className="overlay"></div>
-      <video src={videoBg} autoPlay loop muted />
+    <div className="video">
+      <ReactPlayer  src={videoBg}  autoPlay loop muted />
+      </div>
     <div className="content">
       <h1>The winter Break</h1>
 
