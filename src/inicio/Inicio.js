@@ -1,14 +1,19 @@
-import React from "react"
+import React  from "react"
 import { SobreNosotros } from "../SobreNosotros/SobreNosotros"
 
+import "./inicio.css"
 
-import { Video } from "../Videoinicio/Video"
 export const Inicio = ()=>{
 return(
 <div>
-
-   <Video/>
+<div className="container-inicio">
+<div className="container-fondo">
+ <h1>The Winter Breack</h1>
+</div>
+</div>
+   
    <SobreNosotros/>
+
    </div>
 
 )
