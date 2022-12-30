@@ -1,6 +1,6 @@
 import React  from "react"
 import { SobreNosotros } from "../SobreNosotros/SobreNosotros"
-
+import {Video} from "../Videoinicio/Video"
 import "./inicio.css"
 
 export const Inicio = ()=>{
@@ -11,7 +11,7 @@ return(
  <h1>The Winter Breack</h1>
 </div>
 </div>
-   
+   <Video/>
    <SobreNosotros/>
 
    </div>
