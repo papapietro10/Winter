@@ -36,17 +36,10 @@ export const Inicio = (items)=>{
        
    },[categoria])
 return(
-<div>
-<Video/>
-<div className="container-fondo">
- <h1>The Winter Breack</h1>
- <h4>{items.title}</h4>
-</div>
-
-<h4>{items.title}</h4>
- 
-   <ItemList items={productos}/>
-   </div>
+    <div>
+        <Video/>
+        <ItemList items={productos}/>
+    </div>
 
    
 
